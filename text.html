@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let inputToan
+        let inputLy
+        let inputHoa
+        inputToan=prompt("nhập điểm toán")
+        inputLy=prompt("nhập điểm lý")
+        inputHoa=prompt("nhập điểm hóa")
+        let Toan = parseInt(inputToan)
+        let Ly = parseInt(inputLy)
+        let Hoa= parseInt(inputHoa)
+        let sum=Toan+Ly+Hoa;
+        let mediumScore = Toan+Ly+Hoa/3;
+        document.write("Tổng:"+sum)
+        document.write('<br>')
+        document.write("Điểm trung bình:"+mediumScore)
+    </script>
+    
+</body>
+</html>
